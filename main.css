@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Rubik;
+    display: block;
+    background-color: #0E213C;
+    color: white;
+}
+
+main {
+    height: 1100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16181B;
+    padding: 10px 25px;
+}
+
+.infos-users {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    height: 60px;
+    width: auto;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.1;
+    color: #FD9222;
+}
+
+.logotype {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.username {
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: #FD9222;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover; /* évite la déformation de l'image */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16181B;
+    height: 110px;
+}
+
+.mentions-legales {
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+.social-media-icon img{
+    height: 45px;
+    width: auto;
+}
+
+.social-media-text {
+    margin-right: 30px;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+}
+
+.youporn-text {
+    color: #FD9222;
+}
