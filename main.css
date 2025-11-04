@@ -71,6 +71,7 @@ footer {
 .social-media-icon img{
     height: 45px;
     width: auto;
+    padding-left: 2rem;;
 }
 
 .social-media-text {
@@ -78,6 +79,9 @@ footer {
     display: flex;
     text-transform: uppercase;
     font-size: 1.0rem;
+}
+.social-media-text span {
+    padding-left: 0.5rem;
 }
 
 .youporn-text {
