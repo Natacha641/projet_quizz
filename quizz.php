@@ -6,11 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="./quizz.css">
 </head>
+
+<?php  // Inclut le fichier header.php
+    require_once './header_footer/header.php'; 
+?>
+
 <body>
     <section class="squizz">
 
-        <span class="thematique">Thématique : Musée du Louvre</span>
-        <span class="question-line">Quel est le mot de passe du Louvre ? 1/10</span>
+        <div class="theme-question">
+            <span class="thematique">Thématique : Musée du Louvre</span>
+            <span class="question-line">Quel est le mot de passe du Louvre ? 1/10</span>
+        </div>
 
         <div class="answer-block">
             <div class="answers-top">
@@ -25,6 +32,10 @@
             <button class="btn-validate">Valider ma réponse</button>
         </div>
     </section>
-
 </body>
+
+<?php  // Inclut le fichier header.php
+    require_once './header_footer/footer.php';  
+?>
+
 </html>
