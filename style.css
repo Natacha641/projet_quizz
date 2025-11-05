@@ -78,10 +78,11 @@ h1 {
 
 
 /*divers et varié centrage */
-.margin0{
-    margin:0;
-    padding:0;
+.margin0 {
+    margin: 0;
+    padding: 0;
 }
+
 .margin1 {
     margin: 1vw;
 }
@@ -97,7 +98,12 @@ h1 {
 .margin30 {
     margin: 30%;
 }
-
+.marginRight2 {
+    margin-right: 2%;
+}
+.marginRight10 {
+    margin-right: 10%;
+}
 .marginRight90 {
     margin-right: 90%;
 }
@@ -105,18 +111,23 @@ h1 {
 .marginRight85 {
     margin-right: 85%;
 }
+
 .marginTop-5 {
     margin-top: -5px;
 }
+
 .marginTop-10 {
     margin-top: -10px;
 }
+
 .margin1Left {
     margin-left: 1vw;
 }
+
 .margin2Left {
     margin-left: 2vw;
 }
+
 /* Flexbox */
 .center {
     display: flex;
@@ -168,10 +179,12 @@ h1 {
 
 /* a mettre dans un conteneur flex*/
 .space-between {
+    justify-content: space-between;
     align-content: space-between;
 }
 
 .space-around {
+    justify-content: space-around;
     align-content: space-around;
 }
 
@@ -231,12 +244,20 @@ h1 {
     width: 15%;
 }
 
+.t30 {
+    width: 30%;
+}
+
 .t50 {
     width: 50.01%;
 }
 
 .t60 {
     width: 60%;
+}
+
+.t70 {
+    width: 70%;
 }
 
 .t90 {

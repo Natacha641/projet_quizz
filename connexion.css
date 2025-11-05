@@ -16,3 +16,13 @@ label {
   gap: 1px; 
 }
 
+button{
+    width:131px;
+    justify-items: right;
+    height:39px;
+    justify-content: right;
+}
+
+.buttonContainer{
+    width:50vw;
+}
