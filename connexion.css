@@ -32,21 +32,31 @@ form {
 
 .liens {
   display: flex;
-  justify-content: space-between; /* répartit les liens aux extrémités */
+  justify-content: space-between;
+  /* répartit les liens aux extrémités */
   align-items: center;
-  width: 642px; /* même largeur que les champs */
+  width: 642px;
+  /* même largeur que les champs */
 }
 
 .lien {
   text-decoration: none;
 }
 
-.button{
-  width:640px;
-  text-align:right;
+.button {
+  width: 640px;
+  text-align: right;
 }
 
-button{
-  width:121px;
-  height:39px;
+button {
+  width: 121px;
+  height: 39px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'poppins', sans-serif;
 }
