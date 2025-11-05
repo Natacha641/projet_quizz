@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./quizz.css">
+</head>
+
+<?php  // Inclut le fichier header.php
+    require_once './header_footer/header.php'; 
+?>
+
+<body>
+    <section class="squizz">
+
+        <div class="theme-question">
+            <span class="thematique">Thématique : Musée du Louvre</span>
+            <span class="question-line">Quel est le mot de passe du Louvre ? 1/10</span>
+        </div>
+
+        <div class="answer-block">
+            <div class="answers-top">
+                <button class="answer-top-left">A : 1234</button>
+                <button class="answer-top-right">B : Musée</button>
+            </div>
+            <div class="answers-bottom">
+                <button class="answer-bottom-left">C : Mot de passe</button>
+                <button class="answer-bottom-right">D : Louvre</button>
+            </div>
+
+            <button class="btn-validate">Valider ma réponse</button>
+        </div>
+    </section>
+</body>
+
+<?php  // Inclut le fichier header.php
+    require_once './header_footer/footer.php';  
+?>
+
+</html>
