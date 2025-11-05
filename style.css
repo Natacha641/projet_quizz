@@ -1,4 +1,4 @@
-/* Cas général*/
+/* background*/
 
 .BGYellow {
     background-color: #FDBF16;
@@ -16,6 +16,8 @@
     background-color: #FD9222;
 }
 
+/*text*/
+
 .yellow {
     color: #FDBF16;
 }
@@ -31,14 +33,20 @@
 .orange {
     color: #FD9222;
 }
-
+/* font*/
 .rubik {
     font-family: "Rubik";
 }
 
 /*divers et varié centrage */
+.margin10 {
+    margin:10%;
+}
 .margin20 {
     margin:20%;
+}
+.margin30{
+    margin:30%;
 }
 
 /* Centrage avec Flexbox */
@@ -50,26 +58,44 @@
     height: 100px;
 }
 
-/* Alignement à gauche */
+/* Alignement de texte */
 .left {
     text-align: left;
     padding: 10px;
 }
 
-/* Alignement à droite */
+
 .right {
     text-align: right;
     padding: 10px;
 }
-/*conteneur flex*/
+/*conteneur*/
 .flex{
     display: flex;
+}
+
+.grid{
+    display:grid;
+}
+
+.block{
+    display:block;
+}
+
+.none{
+    display:none;
 }
 
 /* a mettre dans un conteneur flex*/
 .space-between{
     align-content: space-between;
 }
+
+.space-around{
+    align-content:space-around;
+}
+
+
 /* pour séparer des vignettes*/
 .separate{
     gap:15px;
