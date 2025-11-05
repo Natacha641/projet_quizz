@@ -42,6 +42,9 @@
     color: #fffffe;
 }
 
+.whiteGrey {
+    color: #939393;
+}
 /* font*/
 
 h1 {
@@ -59,7 +62,9 @@ h1 {
 .size12 {
     font-size: 12px;
 }
-
+.size20 {
+    font-size: 20px;
+}
 .size24 {
     font-size: 24px;
 }

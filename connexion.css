@@ -1,28 +1,52 @@
-input{
-    height: 4vh;
-}
-
-input::placeholder{
-    padding-left: 5px;
-}
-
-label {
-  margin-bottom: 0px;
-}
-
-.stack {
+.formContainer {
+  width: 100vw;
+  height: 100vw;
   display: flex;
   flex-direction: column;
-  gap: 1px; 
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /*classe les div par colonne*/
+  justify-content: center;
+  /* centre horizontalement */
+  align-items: center;
+  /* centre verticalement */
+  width: 100vw;
+  height: 90vh;
+}
+
+.champ {
+  width: 642px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentChamp {
+  width: 642px;
+  height: 39px;
+}
+
+.liens {
+  display: flex;
+  justify-content: space-between; /* répartit les liens aux extrémités */
+  align-items: center;
+  width: 642px; /* même largeur que les champs */
+}
+
+.lien {
+  text-decoration: none;
+}
+
+.button{
+  width:640px;
+  text-align:right;
 }
 
 button{
-    width:131px;
-    justify-items: right;
-    height:39px;
-    justify-content: right;
-}
-
-.buttonContainer{
-    width:50vw;
+  width:121px;
+  height:39px;
 }

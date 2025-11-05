@@ -12,24 +12,26 @@
 
 <body class="BGBlue margin1">
     <h1 class="white">|Se connecter</h1>
-    <div class="center flex t100">
-        <form action="" method="post" class="center t100 h90vh flex wrap column margin0">
-            <div class="column t50 ">
-                <label for="email" class="left white size10  ">Email :</label>
-                <input type="email" id="email" name="email" class="t100 BGMediumBlue marginTop-10" placeholder="email" required>
+    <div class="formContainer">
+        <form action="" method="post" class="">
+            <div class="champ margin1">
+                <label for="email" class="nomChamp whiteGrey">Email :</label>
+                <input type="email" id="email" name="email" class="contentChamp BGMediumBlue" placeholder="email"
+                    required>
             </div>
-            <div class="column t50 wrap">
-                <label for="password" class="t100 left white size10 margin0">mot de passe :</label>
-                <input type="password" id="password" name="password" class="t100 BGMediumBlue marginTop-10" placeholder="mot de passe" required>
+            <div class="champ margin1">
+                <label for="password" class="nomChamp whiteGrey">mot de passe :</label>
+                <input type="password" id="password" name="password" class="contentChamp BGMediumBlue"
+                    placeholder="mot de passe" required>
             </div>
-            <div class="flex  buttonContainer ">
+            <div class="liens ">
 
-                <a href="forgetpassword.php" class="space-between t100">Mot de passe oublié</a>
-                <a href="inscription.php" class="space between t100">Pas de compte ? s'inscrire<a>
+                <a href="forgetpassword.php" class="lien lightBlue">Mot de passe oublié</a>
+                <a href="inscription.php" class="lien lightBlue">Pas de compte ? s'inscrire</a>
 
             </div>
-            <div class="right buttonContainer">
-                <button type="submit" class="BGOrange">Envoyer</button>
+            <div class="button margin1">
+                <button type="submit" class="BGOrange" name="envoyer">Envoyer</button>
             </div>
         </form>
     </div>
