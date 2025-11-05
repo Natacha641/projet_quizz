@@ -1,6 +1,6 @@
 body {
             margin: 0;
-            font-family: Rubik;
+            font-family: Poppins;
             display: block;
             background-color: #0E213C;
             color: white;
@@ -30,6 +30,7 @@ body {
     background-color: #FDBF16;
     border-radius: 16px;
     font-size: 1.4rem;
+    font-weight: 700;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 25px;
@@ -58,6 +59,7 @@ body {
     border-color: #FD9222;
     margin: 10px;
     border: none;
+    font-size: 1.3rem;
 }
 
 .btn-validate {
@@ -67,4 +69,16 @@ body {
     border-radius: 15px;
     border: none;
     background-color: #FDBF16;
+    font-size: 1.3rem;
+}
+
+.answer-top-left:hover,
+.answer-top-right:hover,
+.answer-bottom-left:hover,
+.answer-bottom-right:hover {
+    background-color: aliceblue;
+}
+
+.btn-validate:hover {
+    background-color: #ffffff;
 }
