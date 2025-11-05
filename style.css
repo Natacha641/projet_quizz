@@ -280,3 +280,66 @@ h1 {
 .h100vh {
     height: 100vh;
 }
+
+.formContainer {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /*classe les div par colonne*/
+  justify-content: center;
+  /* centre horizontalement */
+  align-items: center;
+  /* centre verticalement */
+  width: 100vw;
+  height: 90vh;
+}
+
+.champ {
+  width: 642px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentChamp {
+  width: 642px;
+  height: 39px;
+}
+
+.liens {
+  display: flex;
+  justify-content: space-between;
+  /* répartit les liens aux extrémités */
+  align-items: center;
+  width: 642px;
+  /* même largeur que les champs */
+}
+
+.lien {
+  text-decoration: none;
+}
+
+.button {
+  width: 640px;
+  text-align: right;
+}
+
+button {
+  width: 121px;
+  height: 39px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'poppins', sans-serif;
+}
