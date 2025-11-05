@@ -33,20 +33,57 @@
 .orange {
     color: #FD9222;
 }
+
+.white {
+    color: #fffffe;
+}
+
 /* font*/
+
+h1 {
+    font-size: 48;
+}
+
+.size8 {
+    font-size: 8px;
+}
+
+.size12 {
+    font-size: 12px;
+}
+
+.size24 {
+    font-size: 24px;
+}
+
+.size36 {
+    font-size: 36px;
+}
+
+.size48 {
+    font-size: 48px;
+}
+
 .rubik {
     font-family: "Rubik";
 }
 
+
 /*divers et varié centrage */
+.margin1 {
+    margin: 1vw;
+}
+
 .margin10 {
-    margin:10%;
+    margin: 10%;
 }
+
 .margin20 {
-    margin:20%;
+    margin: 20%;
 }
-.margin30{
-    margin:30%;
+
+.margin30 {
+    margin: 30%;
 }
 
 /* Centrage avec Flexbox */
@@ -69,34 +106,72 @@
     text-align: right;
     padding: 10px;
 }
+
 /*conteneur*/
-.flex{
+.flex {
     display: flex;
 }
 
-.grid{
-    display:grid;
+.grid {
+    display: grid;
 }
 
-.block{
-    display:block;
+.block {
+    display: block;
 }
 
-.none{
-    display:none;
+.none {
+    display: none;
 }
 
 /* a mettre dans un conteneur flex*/
-.space-between{
+.space-between {
     align-content: space-between;
 }
 
-.space-around{
-    align-content:space-around;
+.space-around {
+    align-content: space-around;
 }
 
 
 /* pour séparer des vignettes*/
-.separate{
-    gap:15px;
+.separate {
+    gap: 15px;
+}
+
+/*taille par défaut*/
+
+.carre20vw {
+    width: 20vw;
+    height: 20vw;
+}
+
+.carre40vw {
+    width: 40vw;
+    height: 40vw;
+}
+
+.carre60vw {
+    width: 60vw;
+    height: 60vw;
+}
+
+.carre80vw {
+    width: 80vw;
+    height: 80vw;
+}
+
+.rectangle20 {
+    width: 20vw;
+    height: 40vw;
+}
+
+.rectangle30 {
+    width: 30vw;
+    height: 60vw;
+}
+
+.rectangle40 {
+    width: 40vw;
+    height: 60vw;
 }
