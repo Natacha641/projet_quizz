@@ -1,5 +1,6 @@
 body{
     background-color: #0E213C;
+    font-family: "poppins";
 }
 
 h3{
@@ -45,6 +46,7 @@ input, select{
 .file_choose input[type="file"]{
     display: none;
     justify-content: center;
+    align-items: center;
 }
 /* input personnalisé */
 .file_choose_img_custom{
@@ -67,5 +69,148 @@ input, select{
 .file_choose_img_text{
     display: flex;
     justify-content: center;
-    margin-left: 82px;
+    margin-left: 72px;
+}
+
+.my_question_quizz{
+    display: flex;
+    flex-direction: column;
+    margin-top: 47px;
+    margin-left: 27px;
+}
+
+.my_question_create{
+    height: 24px;
+    width: 876px;
+}
+
+.column_class{
+    display: flex;
+    flex-direction: column;
+}
+
+.my_response_quizz{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 9px;
+}
+
+.size_input_response{
+    height: 24px;
+    width: 213px;
+}
+
+/*  
+------------------- Checkbox avec animation et css ---------------------
+*/
+
+.answer-selector-v1 {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            margin-top: 10px;
+        }
+        
+        .label-v1 {
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        
+        .buttons-v1 {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .buttons-v1 input[type="radio"] {
+            display: none;
+        }
+        
+        .buttons-v1 label {
+            width: 25px;
+            height: 24px;
+            background: #10305D;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .buttons-v1 label:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .buttons-v1 input:checked + label {
+            background: #fd9222;
+            transform: scale(1.1);
+        }
+        
+        /* Animation de vague */
+        .buttons-v1 label::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .buttons-v1 input:checked + label::before {
+            width: 100px;
+            height: 100px;
+            opacity: 0;
+        }
+
+/*
+------------------------------ Ajouter une question ----------------------------
+*/
+
+.add_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+/*
+.add_button:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+*/
+.add_button_none{
+    display: none;
+}
+
+.add_button_label{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    color: #fd9222;
+}
+.row_class{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+.row_class:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+
 }

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Baumans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Gemstones&display=swap" rel="stylesheet">
     <title>Squizzel_RUN/Création_de_quizz</title>
 </head>
 <body>
@@ -47,88 +50,51 @@
                 <!-- Question et réponse à remplir dans le formulaire -->
 
                 <!-- La question posée -->
-                <label for="question_quizz">Question n°""</label>
-                <input type="text" name="question_quizz_?" placeholder="Inscrire une question">
-                <!-- Les réponses possibles -->
-                <label for="response_quizz_a">Réponse A :</label>
-                <input type="text" name="response_quizz_a">
-                
-                <label for="response_quizz_b">Réponse B :</label>
-                <input type="text" name="response_quizz_b">
-                
-                <label for="response_quizz_c">Réponse C :</label>
-                <input type="text" name="response_quizz_c">
-                
-                <label for="response_quizz_d">Réponse D :</label>
-                <input type="text" name="response_quizz_d">
+                <div class="my_question_quizz">
+                    <label for="question_quizz">Question n°""</label>
+                    <input class="my_question_create" type="text" name="question_quizz_?" placeholder="Inscrire une question">
+                        <!-- Les réponses possibles -->
+                    <div class="my_response_quizz">
+                        <div class="column_class">
+                            <label for="response_quizz_a">Réponse A :</label>
+                            <input class="size_input_response" type="text" name="response_quizz_a">                        
+                        </div>     
+                        <div class="column_class">
+                            <label for="response_quizz_b">Réponse B :</label>
+                            <input class="size_input_response" type="text" name="response_quizz_b">                        
+                        </div>
+                        <div class="column_class">
+                            <label for="response_quizz_c">Réponse C :</label>
+                            <input class="size_input_response" type="text" name="response_quizz_c">
+                        </div>
+                        <div class="column_class">
+                            <label for="response_quizz_d">Réponse D :</label>
+                            <input class="size_input_response" type="text" name="response_quizz_d">
+                        </div>
+                    </div>                      
 
-                <!-- La question posée -->
-                <label for="question_quizz">Question n°""</label>
-                <input type="text" name="question_quizz_?" placeholder="Inscrire une question">
-                <!-- Les réponses possibles -->
-                <label for="response_quizz_a">Réponse A :</label>
-                <input type="text" name="response_quizz_a">
-                
-                <label for="response_quizz_b">Réponse B :</label>
-                <input type="text" name="response_quizz_b">
-                
-                <label for="response_quizz_c">Réponse C :</label>
-                <input type="text" name="response_quizz_c">
-                
-                <label for="response_quizz_d">Réponse D :</label>
-                <input type="text" name="response_quizz_d">
-
-                <!-- La question posée -->
-                <label for="question_quizz">Question n°""</label>
-                <input type="text" name="question_quizz_?" placeholder="Inscrire une question">
-                <!-- Les réponses possibles -->
-                <label for="response_quizz_a">Réponse A :</label>
-                <input type="text" name="response_quizz_a">
-                
-                <label for="response_quizz_b">Réponse B :</label>
-                <input type="text" name="response_quizz_b">
-                
-                <label for="response_quizz_c">Réponse C :</label>
-                <input type="text" name="response_quizz_c">
-                
-                <label for="response_quizz_d">Réponse D :</label>
-                <input type="text" name="response_quizz_d">
-
-                <!-- La question posée -->
-                <label for="question_quizz">Question n°""</label>
-                <input type="text" name="question_quizz_?" placeholder="Inscrire une question">
-                <!-- Les réponses possibles -->
-                <label for="response_quizz_a">Réponse A :</label>
-                <input type="text" name="response_quizz_a">
-                
-                <label for="response_quizz_b">Réponse B :</label>
-                <input type="text" name="response_quizz_b">
-                
-                <label for="response_quizz_c">Réponse C :</label>
-                <input type="text" name="response_quizz_c">
-                
-                <label for="response_quizz_d">Réponse D :</label>
-                <input type="text" name="response_quizz_d">
-
-                <!-- La question posée -->
-                <label for="question_quizz">Question n°""</label>
-                <input type="text" name="question_quizz_?" placeholder="Inscrire une question">
-                <!-- Les réponses possibles -->
-                <label for="response_quizz_a">Réponse A :</label>
-                <input type="text" name="response_quizz_a">
-                
-                <label for="response_quizz_b">Réponse B :</label>
-                <input type="text" name="response_quizz_b">
-                
-                <label for="response_quizz_c">Réponse C :</label>
-                <input type="text" name="response_quizz_c">
-                
-                <label for="response_quizz_d">Réponse D :</label>
-                <input type="text" name="response_quizz_d">
+                    <div class="answer-selector-v1">
+                        <span class="label-v1">Bonne Réponse :</span>
+                        <div class="buttons-v1">
+                            <input type="radio" name="answer-v1" id="v1-a" value="a">
+                            <label for="v1-a">A</label>
+                            <input type="radio" name="answer-v1" id="v1-b" value="b">
+                            <label for="v1-b">B</label>
+                            <input type="radio" name="answer-v1" id="v1-c" value="c">
+                            <label for="v1-c">C</label>
+                            <input type="radio" name="answer-v1" id="v1-d" value="d">
+                            <label for="v1-d">D</label>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Ajout d'un bouton pour une question de plus -->
-                 <input type="button" name="add_button" class="add_button_id">
-                 <label for="add_button_add">Ajouter une question</label>
+                <div class="row_class">
+                    <input type="button" name="add_button" class="add_button_none">
+                    <span><img class="add_button" src="src/img/Button_+++.png" alt=""></span>
+                    <label class="add_button_label" for="add_button_add">Ajouter une question</label>
+                </div>
+                 
             </form>
 
 
