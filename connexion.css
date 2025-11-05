@@ -1,0 +1,18 @@
+input{
+    height: 4vh;
+}
+
+input::placeholder{
+    padding-left: 5px;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1px; 
+}
+
