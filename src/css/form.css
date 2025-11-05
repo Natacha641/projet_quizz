@@ -178,6 +178,10 @@ input, select{
 /*
 ------------------------------ Ajouter une question ----------------------------
 */
+input::placeholder, select, select:focus, option:not(:first-of-type){
+    color: whitesmoke;
+    opacity: 80%;
+}
 
 .add_button{
     display: flex;
@@ -188,12 +192,7 @@ input, select{
     margin-top: 35px;
     margin-left: 30px;
 }
-/*
-.add_button:hover{
-    transform: translateY(-2px);
-    cursor: pointer;
-}
-*/
+
 .add_button_none{
     display: none;
 }
