@@ -1,4 +1,11 @@
+
+<!-- link for quizz.php -->
 <link rel="stylesheet" href="./header_footer/header_footer.css">
+
+<!-- link for connexion.php -->
+<link rel="stylesheet" href="../header_footer/header_footer.css">
+
+
     <header class="header">
 
             <div class="logotype">
