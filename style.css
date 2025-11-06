@@ -1,7 +1,6 @@
 body {
     background-color: #0E213C;
     color: white;
-    font-family: 'Poppins', sans-serif;
     margin: 0px;
     /* Positionnement bouton "+ creer unquizz"*/
     position: relative; 
@@ -11,6 +10,7 @@ body {
 main {
     width: 100%;
     margin: 0 auto;
+    font-family: 'poppins', sans-serif;
 }
 
 
@@ -46,7 +46,7 @@ h2 {
     flex-direction: column;
     gap: 10px;
     padding: 20px;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 label {
@@ -85,11 +85,12 @@ input[type="checkbox"]:checked::after {
 
 /* bouton "lancer le quizz"*/
 .lancer-quizz {
-    width: 500px; 
-    height: 500px;
+    width: 400px; 
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .lancer-btn-img {
@@ -112,21 +113,18 @@ input[type="checkbox"]:checked::after {
 
 
 /* bouton "+ creer un quizz"*/
-
 .bouton-creer-quizz {
-    position: fixed;
-    bottom: 50px; 
-    right: 100px;
-    
     color: white; 
     text-decoration: none; 
     font-size: 15px;
+    margin-top: 20px;
     
     display: flex;
     align-items: center; 
+    justify-content: center;
     cursor: pointer;
     transition: color 0.3s;
-    z-index: 1000;
+    
 }
 
 .bouton-creer-quizz:hover {
@@ -141,7 +139,7 @@ input[type="checkbox"]:checked::after {
 
 
 /* reponsive: media query pour petits écrans*/
-@media (max-width: 992px) { 
+@media (max-width: 768px) { 
 
     /* colonne vertical et le centrage du contenu sur petit écran*/
     .accueil {
@@ -155,9 +153,9 @@ input[type="checkbox"]:checked::after {
     .lancer-quizz {
         width: 80vw; 
         height: 80vw; 
-        max-width: 400px; 
-        max-height: 400px;
-        margin-top: 40px; 
+        max-width: 200px; 
+        max-height: 200px;
+        margin-top: 10px; 
     }
     
     .colonne-themes {
@@ -172,13 +170,5 @@ input[type="checkbox"]:checked::after {
     .filtre {
         margin: 0 auto;
         padding: 10px;
-    }
-    
-    /* Bouton '+ creer un quizz' reste fixe dans le coin */
-    .bouton-creer-quizz {
-        position: absolute; 
-        bottom: 10px;
-        right: 20px;
-        font-size: 16px;
     }
 }
