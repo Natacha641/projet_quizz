@@ -1,3 +1,8 @@
+
+
+
+
+
 body{
     background-color: #0E213C;
     font-family: "poppins";
@@ -178,7 +183,7 @@ input, select{
 /*
 ------------------------------ Ajouter une question ----------------------------
 */
-input::placeholder, select, select:focus, option:not(:first-of-type){
+input, input::placeholder, select, select:focus, option:not(:first-of-type){
     color: whitesmoke;
     opacity: 80%;
 }
