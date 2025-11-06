@@ -38,12 +38,12 @@
 
       <div>
         <div class="lancer-quizz">
-          <a href="page-du-quizz.html" class="lancer-btn-img">
-            <img src="bouton-quizz.png" alt="bouton lancer le quizz" />
+          <a href="page-du-quizz.html" class="lancer-btn-img" name="lancer-quizz">
+            <img src="bouton-quizz.png" alt="bouton lancer le quizz"/>
           </a>
         </div>
         <div>
-          <a href="jose-connexion.php" class="bouton-creer-quizz">
+          <a href="jose-connexion.php" class="bouton-creer-quizz" name="creer-quizz">
             <span class="plus-sign">+</span> Créer un Quizz
           </a>
         </div>
