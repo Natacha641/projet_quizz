@@ -1,0 +1,111 @@
+body {
+    background-color:#0E213C;
+}
+
+.section_formulaire {
+    background-color:#0E213C;
+    color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.se_connecter {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+.form_connexion {
+    display: flex;
+    flex-direction: column;
+}
+
+.email_block {
+    display: flex;
+    flex-direction: column;
+}
+.psw_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.email_label{
+    font-size: 0.8rem;
+    color: #939393;
+}
+
+#email {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    opacity: 0.8;
+    box-shadow: inset;
+    background-color: #10305D;
+    border: none
+}
+
+
+.psw_label{
+    font-size: 0.8rem;
+    color: #939393;
+}
+
+
+#password {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    opacity: 0.8;
+    box-shadow: inset;
+    background-color: #10305D;
+    border: none
+}
+
+.bottom_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+}
+
+.link_frgt_psw, 
+.link_inscription {
+    font-size: 0.8rem;
+}
+
+.link_frgt_psw:link, 
+.link_inscription:link {
+    color: rgb(78, 78, 230);
+}
+
+.div_btn_send {
+    text-align: right;
+}
+
+.btn_send {
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    cursor:pointer;
+    background-color: #FD9222;
+    border-radius: 5px;
+    border: none;
+    justify-content: flex-end;
+
+
+}

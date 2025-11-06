@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/form.css">
-    <link rel="stylesheet" href="header_footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Baumans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="createquizz.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Baumans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Gemstones&display=swap" rel="stylesheet">
     <title>Squizzel_RUN/Création_de_quizz</title>
 </head>
 <body>
@@ -43,7 +42,7 @@
                     </div>
                     <label class="file_choose">
                         <input id="file_choose_img" type="file" name="image_quizz">
-                        <span class="file_choose_img_custom"><img src="src/img/Add_img.png" alt=""></span>
+                        <span class="file_choose_img_custom"><img src="img/Add_img.png" alt=""></span>
                         <span class="file_choose_img_text">Ajouter une photo</span>
                     </label>
                 </div>
@@ -92,7 +91,7 @@
                 <!-- Ajout d'un bouton pour une question de plus -->
                 <div class="row_class">
                     <input type="button" name="add_button" class="add_button_none">
-                    <span><img class="add_button" src="src/img/Button_+++.png" alt=""></span>
+                    <span><img class="add_button" src="img/Button_+++.png" alt=""></span>
                     <label class="add_button_label" for="add_button_add">Ajouter une question</label>
                 </div>
                  
