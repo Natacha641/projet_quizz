@@ -12,6 +12,7 @@
     <?php  // == [Header] ==
         require_once './header_footer/header.php'; 
     ?>
+    
     <main>
         <section class="squizz">
 

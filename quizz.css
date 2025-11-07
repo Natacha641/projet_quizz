@@ -11,11 +11,7 @@ body {
         }
 
 main {
-    min-height: 1900px;
-}
-
-body section {
-    margin-bottom: 900px;
+    height: 100vh;
 }
 
 .theme-question {
