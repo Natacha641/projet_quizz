@@ -4,7 +4,7 @@ body {
 
 .section_formulaire {
     background-color: #0E213C;
-    color: aliceblue;
+    color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@ body {
 
 .se_connecter {
     font-size: 2rem;
-    color: aliceblue;
+    color: white;
 }
 
 .formContainer {

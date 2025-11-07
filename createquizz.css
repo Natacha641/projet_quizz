@@ -3,12 +3,10 @@ body{
     font-family: poppins, sans-serif;
 }
 
-h3{
-    font-size: 1.67vw;
-    margin-top: 0.68vw;
-    margin-left: 1vw;
-    margin-bottom: 0vw;
+.titre {
+    font-size: 2rem;
     color: whitesmoke;
+    font-family: poppins, sans-serif;
 }
 
 label{

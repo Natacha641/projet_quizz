@@ -15,7 +15,7 @@
     </header>
 
     <main>
-        <h3>| Création de quizz</h3>
+        <span class="titre">|Création de quizz</span>
 
         <section>
             <form action="" method="post">
