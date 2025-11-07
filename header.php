@@ -6,7 +6,7 @@
                     <img src="img/logo.svg" alt="un ecureuil" class="logo-icon">
                 </a>
                 <div class="logo-text">
-                    <span>Squizzel</span>
+                    <span>SQUIZZEL</span>
                     <span>RUN</span>
                 </div>
             </div>
